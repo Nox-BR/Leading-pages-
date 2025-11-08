@@ -1,0 +1,603 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+input, textarea:focus{
+  outline-color: #1D00DFB3;
+}
+
+/* start style of nav */
+nav{
+  background: #0E004E;
+  width: 80%;
+  padding: 0 10px;
+  border-radius: 50px;
+  position: fixed;
+  top: 15px;
+  right: 80px;
+  display: flex;
+  flex-flow: row;
+  justify-content:  space-between;
+}
+nav ul{
+  list-style-type: none;
+}
+.navbar li{
+  display: inline-block;
+  margin: 20px 10px;
+}
+.icon{
+  width: 70px;
+}
+.navbar li a{
+  text-decoration: none;
+  color: #FEFEFE;
+  font-size: 20px;
+}
+.navbar li a:hover{
+  background: #2E00FF;
+  border-radius: 40px;
+  padding: 5px;
+}
+/* End style of nav */
+
+/* start style of header */
+header{
+  background: url(imgs/background.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row;
+}
+.heading{
+  margin: 110px auto;
+  width: 90%;
+  text-align: center;
+}
+.heading h1{
+  font-size: 35px;
+  color: #FFFFFF;
+}
+.heading p{
+  color: #FFFFFF;
+  margin: 10px 0 30px 0;
+  word-spacing: 3px;
+}
+.heading a{
+  text-decoration: none;
+  background: #140153;
+  color: #FFFFFF;
+  border-radius: 40px;
+  width: 400px;
+  padding: 10px;
+}
+.heading a:hover{
+  background: none;
+  border: solid 3px #140153;
+}
+/* End style of header */
+
+/* start style of about*/
+#about{
+  background: #2E0086D4;
+  width: 100vw;
+  color: #DEDEDE;
+}
+.How_I{
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.imge_1 img, .How_do img{
+  width: 150px;
+}
+.script_1 h2, .How_do h2{
+  font-size: 40px;
+}
+.script_1 p, .How_do p{
+  font-size: 20px;
+  word-spacing: 2px;
+}
+.How_do{
+  margin: 30px 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.script_2{
+  margin: 0 30px 20px 20px;
+}
+/* End style of about */
+
+/* start style of comments */
+#comments{
+  background: #7E10CA;
+  width: 100vw;
+  padding: 30px 0;
+}
+#comments h2, #comments p{
+  text-align: center;
+  color: #FBFBFB;
+}
+#comments .Agents div{
+  background: #22076A;
+  width: 300px;
+  border-radius: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 20px;
+  
+}
+.Agents{
+   display: flex;
+   flex-flow: row wrap;
+   gap: 30px;
+   justify-content: center;
+}
+.Agents h3{
+  font-size: 22px;
+  margin: 5px;
+}
+.Agents p{
+  font-size: 18px;
+  word-spacing: 2px;
+}
+.Agents img{
+  width: 90px;
+}
+#comments .Agents div:hover{
+  box-shadow: 2px 2px 8px 0 #0015FF;
+}
+.header_of_comment{
+  margin-bottom: 30px;
+}
+.Enter_comment{
+  background: #010850;
+  text-align: center;
+  color: #FFFFFF;
+  width: 300px;
+  margin: 30px auto 20px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+.Enter_comment label{
+  font-size: 18px;
+  margin: 5px;
+}
+.Enter_comment div{
+  margin: 5px ;
+  padding: px;
+}
+.Enter_comment input{
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+}
+.Enter_comment button{
+  width: 250px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background: #0015FF;
+  font-size: 20px;
+}
+.Enter_comment:hover{
+  box-shadow: 2px 2px 8px 0 #0015FF;
+}
+/* End style of comments */
+
+/* start style of service */
+#service{
+  background: #2E0086D4;
+  width: 100vw;
+  padding: 20px 0;
+}
+#service .Address{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 35px;
+}
+.services{
+  margin: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.services div{
+  background: #7E10CA;
+  width: 500px;
+  padding: 30px;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+.services div img{
+  width: 300px;
+  height: 170px;
+  border: solid #1C005E 2px;
+  border-radius: 20px;
+  margin: 0 95px;
+}
+.services div h2{
+  font-size: 25px;
+  margin: 10px;
+  text-align: center;
+}
+.services div p{
+  font-size: 18px;
+  word-spacing: 2px;
+  margin: 0 0 10px 0;
+}
+.services div h3{
+  font-size: 25px;
+}
+.services div li{
+  font-size: 18px;
+  word-spacing: 2px;
+  margin: 0 0 10px 0;
+}
+.services div a{
+  text-decoration: none;
+  background: #07006E;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+.services div:hover{
+  box-shadow: 3px 3px 5px 0 #1000F3;
+}
+.services div a:hover{
+  background: none;
+  border: solid 2px #07006E;
+}
+/* End style of service */
+
+/* start style of contact */
+#contact{
+  background: #7E10CA;
+  text-align: center;
+  color: #FFF4F4;
+  padding-bottom: 15px;
+}
+#contact form{
+  background: #010850;
+  width: 400px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+#contact h2{
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+#contact p{
+  font-size: 20px;
+  word-spacing: 2px;
+}
+#contact label{
+  font-size: 23px;
+}
+#contact input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+#contact button{
+  background: #0015FF;
+  width: 300px;
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.email p, .email_2 p{
+  font-size: 20px;
+}
+.email_2 a, .email a{
+  color: #0014EC;
+}
+.email_2{
+  margin: 5px 0 0 0;
+}
+#contact form:hover{
+  box-shadow: 3px 3px 5px 0 #1000F3;
+}
+/* End style of contact */
+
+/* start style of footer */
+footer{
+  background-image: 
+  linear-gradient(to top left, #0015FF, #000759);
+  height: 200px;
+  padding: 20px;
+}
+footer img{
+  width: 80px;
+}
+footer a{
+  text-decoration: none;
+}
+.img_folw{
+  margin: 0 auto 10px auto;
+  width: 250px;
+}
+footer p{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border-top: solid #1C1F41 2px;
+  width: 500px;
+}
+/* End style of footer */
+
+/* Start viewport of phone */
+@media (max-width:600px){
+  
+/* Start viewport nav and header */
+ nav{
+  width: 90%;
+  position: fixed;
+  right: 10px;
+}
+.navbar li a{
+  font-size: 12px;
+}
+.navbar li{
+  display: inline-block;
+  margin: 20px 5px;
+}
+.icon{
+  width: 50px;
+  margin: 5px 0 0 0;
+}
+.navbar li a:hover{
+  background: #2E00FF;
+  border-radius: 40px;
+  padding: 2px;
+}
+.heading{
+  margin: 180px auto;
+  width: 90%;
+  text-align: center;
+  }
+/* End viewport nav and header */
+
+/* Start viewport about */
+.How_I{
+  padding: 30px;
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: space-between;
+  text-align: center;
+  gap: 5px;
+  
+}
+.How_do{
+  margin: 40px 30px 0 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.script_2{
+  margin: 0 30px 25px 20px;
+}
+/* End viewport about */
+
+/* Start viewport comments */
+#comments{
+  background: #7E10CA;
+  width: 100vw;
+  padding: 30px 0;
+}
+#comments h2, #comments p{
+  text-align: center;
+  color: #FBFBFB;
+}
+#comments .Agents div{
+  background: #22076A;
+  width: 220px;
+  border-radius: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 20px;
+  
+}
+.Agents{
+   display: flex;
+   flex-flow: row wrap;
+   gap: 30px;
+   justify-content: center;
+}
+.Agents h3{
+  font-size: 18px;
+  margin: 5px;
+}
+.Agents p{
+  font-size: 14px;
+  word-spacing: 2px;
+  margin: 0 20px;
+}
+.Agents img{
+  width: 90px;
+}
+#comments .Agents div:hover{
+  box-shadow: 2px 2px 8px 0 #0015FF;
+}
+.header_of_comment{
+  margin-bottom: 30px;
+}
+.Enter_comment{
+  background: #010850;
+  text-align: center;
+  color: #FFFFFF;
+  width: 220px;
+  margin: 30px auto 20px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+.Enter_comment label{
+  font-size: 14px;
+  margin: 5px;
+}
+.Enter_comment div{
+  margin: 5px ;
+  padding: 10px;
+}
+.Enter_comment input{
+  width: 200px;
+  height: 25px;
+  border-radius: 5px;
+}
+.Enter_comment button{
+  width: 200px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background: #0015FF;
+  font-size: 16px;
+}
+.Enter_comment:hover{
+  box-shadow: 2px 2px 8px 0 #0015FF;
+}
+.box_coment textarea{
+  width: 200px;
+}
+/* End viewport comments */
+
+/* Start viewport service */
+.services div{
+  background: #7E10CA;
+  width: 200px;
+  padding: 30px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  } 
+.services div img{
+    width: 150px;
+    height: 100px;
+    margin: 0 22px 0 0;
+  }
+.services div h2{
+  font-size: 18px;
+  margin: 5px;
+  text-align: center;
+}
+.services div p{
+  font-size: 14px;
+  word-spacing: 2px;
+  margin: 0 0 10px 0;
+}
+.services div h3{
+  font-size: 17px;
+}
+.services div li{
+  font-size: 14px;
+  word-spacing: 2px;
+  margin: 0 0 10px 0;
+}
+.services div a{
+  text-decoration: none;
+  background: #07006E;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px 0 0 0;
+}
+/* End viewport service */  
+
+/* Start viewport contact */
+#contact{
+  background: #7E10CA;
+  text-align: center;
+  color: #FFF4F4;
+  padding: 15px;
+}
+#contact form{
+  background: #010850;
+  width: 300px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+#contact h2{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#contact p{
+  font-size: 18px;
+  word-spacing: 2px;
+}
+#contact label{
+  font-size: 18px;
+}
+#contact input{
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+#contact button{
+  background: #0015FF;
+  width: 250px;
+  margin: 20px;
+  padding: 5px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.email p, .email_2{
+  font-size: 10px;
+}
+.email_2 a, .email a{
+  color: #0014EC;
+  font-size: 15px;
+}
+.email_2{
+  margin: 5px 0 0 0;
+}
+#contact form:hover{
+  box-shadow: 3px 3px 5px 0 #1000F3;
+}
+.enter_nots textarea{
+  width: 250px;
+}
+/* End viewport contact */
+
+/* Start viewport footer */
+footer{
+  background-image: 
+  linear-gradient(to top left, #0015FF, #000759);
+  height: 100px;
+  padding: 20px;
+}
+footer img{
+  width: 40px;
+}
+footer a{
+  text-decoration: none;
+}
+.img_folw{
+  margin: 0 110px 10px 0;
+  width: 250px;
+}
+footer p{
+  color: #FFFFFF;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  border-top: solid #1C1F41 2px;
+  width: 200px;
+}
+/* End viewport footer */
+
+}
+/* End viewport of phone */
