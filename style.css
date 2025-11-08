@@ -43,7 +43,7 @@ nav ul{
 
 /* start style of header */
 header{
-  background: url(imgs/background.jpg) no-repeat center;
+  background: url(background.jpg) no-repeat center;
   background-size: cover;
   width: 100vw;
   height: 100vh;
